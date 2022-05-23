@@ -19,6 +19,3 @@ print(f"Using device: {device}")
 x = torch.rand(size=(3, 4)).to(device)
 
 print(x)
-
-print(torch.rand(size=(3, 4)))
-print("done..")
